@@ -1,16 +1,16 @@
-import azure.functions as func
+# import azure.functions as func
 # import datetime
 # import json
-import logging
+# import logging
 
 # import pandas as pd
 # import numpy as np
 # import pyodbc
-import requests
+# import requests
 
 
 # ------ローカルファイルパス追加-----
-import os
+# import os
 # import sys
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # if BASE_DIR not in sys.path:
