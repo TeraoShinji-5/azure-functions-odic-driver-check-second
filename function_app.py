@@ -1,4 +1,4 @@
-# import azure.functions as func
+import azure.functions as func
 # import datetime
 # import json
 # import logging
@@ -45,11 +45,11 @@ def CrudTimerTrigger3(myTimer: func.TimerRequest) -> None:
     # index_search_update()
 
 
-    LOG_URL = os.environ.get("LOG_URL","")
-    logging.info('Python timer trigger function executed.aaaaaaaaaaaaaaaaaaa')
-    print('ppppppppppppppppprint')
-    print(LOG_URL)
-    print('ppppppppppppppppprint2')
+    # LOG_URL = os.environ.get("LOG_URL","")
+    # logging.info('Python timer trigger function executed.aaaaaaaaaaaaaaaaaaa')
+    # print('ppppppppppppppppprint')
+    # print(LOG_URL)
+    # print('ppppppppppppppppprint2')
     # url = LOG_URL
     
     # headers = {'content-type': 'application/json'}
